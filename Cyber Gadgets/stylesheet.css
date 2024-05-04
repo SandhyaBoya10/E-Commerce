@@ -1,0 +1,271 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: url(img/4.jpg) center fixed ;
+}
+
+/* ________________ Header ________________ */
+.home{
+    padding: 25px;
+    width: 90% ;
+}
+#start{
+    float: left;
+    padding-right: 20px;
+}
+#head{
+    font-size: 60px;
+    color: gray;
+}
+#sdw{
+    text-shadow: 2px 2px 2px whitesmoke ;
+}
+.start{
+    display: inline-block;
+    width:49%;
+    
+}
+#img_h{
+    text-align: right;
+    float:right;
+    color: aliceblue;
+}
+.start img{
+    padding-left: 15px;
+}
+
+/* _____________________nav_________________ */
+nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lightgray;
+    border-collapse: collapse;
+}
+a:link{
+    text-decoration: none;
+    /* padding-left: 200px; */
+    padding: 20px;
+    
+}
+nav a:hover{
+    text-decoration-line: none;
+    box-shadow: 3px 3px 3px inset;
+    background-color: lightgrey;
+}
+nav a:visited{
+    color: grey ;
+    
+}
+nav a:active{
+    text-decoration-color: blue;
+    box-shadow: 3px 3px 3px 3px inset grey;
+    /* box-shadow: 3px 3px 3px  grey; */
+    background-color: lightgrey;
+}
+
+
+/* ___________ footer ________________ */
+.footer{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-align: center;
+}
+.footer a:hover{
+    background-color: gray;
+}
+
+/* _____________ Main Page _____________ */
+.main{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+#page1{
+    width: 70%;
+    float: right;
+    padding: 10px;
+    padding-right: 150px;
+    color: white;
+}
+#feature h1{
+    background-color: rgb(47, 48, 49);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+#sony{
+    display: inline-grid;
+    width: 22%;
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: left;
+    margin-right: 100px;
+}
+#fetr{
+    padding: 5px;
+    width:130px;
+    background-color: blue;
+    text-align: center;
+    border:1px solid white;
+    color: white;
+}
+/* ________________ Products ________________ */
+.prdt{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 80%;
+    padding-bottom: 0px;
+}
+.products{
+    display: flex;
+    color: white;
+     /*background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px; */
+}
+#cam{
+    display: flex;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    
+    /* flex-wrap: wrap;  */
+}
+#camera{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid slategrey;
+    width: 190px;
+    height: 200px;
+    
+}
+#camera p{
+    background-color: blue;
+    /* padding: 20px; */
+    height: 50px;
+}
+#camera img{
+    width: 100px;
+    height: 100px;
+}
+#prod{
+    padding: 5px;
+    width: 100px;
+    background-color: white;
+    box-shadow: 3px 2px 3px #f0e69c;
+    border:1px solid white;
+    cursor: pointer;
+}
+.contactus{
+    margin-left: 20px;
+}
+#crgrs{
+    background-color: rgb(47, 48, 49);
+    padding-left: 10px;
+    padding: 10px;
+}
+#block{
+    width:200px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+#h3{
+    background-color: rgb(47, 48, 49);
+    padding: 5px;
+    text-align: center;
+}
+#products2{
+    width: 300px;
+}
+
+ /* ________________Gallery_____________ */
+ .gallery{
+    display:flex;
+    color: white;
+ }
+ .prdt1{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+#canon{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+#nikon{
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 3px 3px 3px #f5f5f6d2;
+}
+#nikon p img{
+    width: 200px;
+    height: 200px;
+}
+
+ /* _____________ Contact ______________ */
+ .contact{
+    display: flex;
+    justify-content:right;
+    width: 100%;
+ }
+.form{
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.contact h3{
+    background-color: rgb(47, 48, 49);
+    padding: 5px;
+    text-align: center;
+}
+input,textarea{
+    padding-left: 300px;
+    width: 200px;
+}
+#submit{
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+#input{
+    padding-left: 100px;
+}
+#cont{
+    background-color: white;
+    /* margin-left: 30px; */
+}
+#space{
+    background-color: rgb(47, 48, 49);
+}
+.contactus{
+    width: 300px;
+}
+
+
+/* _____________ About ____________ */
+.about{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.about h3{
+    background-color:dimgray;
+    padding: 5px;
+}
